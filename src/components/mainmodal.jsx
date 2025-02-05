@@ -320,6 +320,7 @@ const Mainmodal = () => {
                 onKeyDown={handleType}
                 helperText={error ? helperText : ""}
                 sx={{
+                  "input":{color:isDarkMode === true ? "white !important" : "black !important"},
                   ".MuiFormHelperText-root.Mui-error ": {
                     color: isDarkMode === true ? "#e88f97 !important" : "red",
                   },
